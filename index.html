@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do Something</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="sample.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <img
+          src="image_header.jfif"
+          alt="Header Image"
+          class="headerImg"
+        />
+      </div>
+    </header>
+      <div class="sidebar close">
+        <div class="logo">
+          
+          <span class="logo-name">Tivotal</span>
+        </div>
+        <!-- <div class="home-section">
+              <div class="home-content">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div> -->
+        <ul class="nav-list">
+          <li>
+            <a href="#">
+              <!-- <i class="fab fa-microsoft"></i> -->
+              Dashboard
+            </a> 
+          </li>
+          <li>
+            <a href="#">
+             
+              Activity
+            </a>
+          </li>
+          <li>
+            <a href="#">   
+              Favourite
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              
+              Settings
+            </a>
+
+            
+          </li>
+
+          <li>
+            
+      </div>
+    
+
+    <div class="main-content">
+      <div class="container">
+        
+        <div class="userDetails">
+          <span style="color: black;">Please enter the number to check whether it is Strong or not</span>
+          <input type="text" id="number" placeholder="Please Enter a Number."/>
+          <button type="submit" onclick="validateNumber()">Check Strong</button>
+          <!-- <p class="initialStage">You Entered Number is.</p> -->
+        </div>
+        <p>Strong Number: The sum of the factorial of digits of a strong number equals the number itself.</p>
+      </div>
+    </div>
+    <div class="adds">
+      <p class="addsHeader">Advertisements</p>
+        <a href="https://www.amazon.com/FNTCASE-iPhone-11-Phone-Case/dp/B0CL6HSKH9/ref=sr_1_4?crid=2E3YOUANXHGY9&dib=eyJ2IjoiMSJ9.WEMrvrEXrijVWW3mYb4JXXWWk4o7M1e0euMALgXUIjou6eeBBoz5sAZ5P2VB-2OllmEhGgBPR43Lcwv9kBerwo2w0d9SQAKnBKwSl-b4IC4dD4z4YB3EtlK1nfWfJnkQuv0IXTR_VtCqnf7jPGbnO-OKR4Y_GR1RDnHKlgAThHLWKoOFQThNmZK1Xw2w8nbeJ5kgSi7vnhwbhsN6GQq67PY2tNRCXACUR416QlEE8Hw.k4ACEVRptCHEBRL_iXVZVV8QyFdisnlYRTDYcduH7zQ&dib_tag=se&keywords=mobile%2Bcases&qid=1712036074&sprefix=mobile%2Bcases%2Caps%2C293&sr=8-4&th=1" target="_blank">
+            <img src="advertisment_1.jfif" alt="Amazon Logo" class="image1"> 
+        </a>
+        <a href="https://www.amazon.com/GuardianSeal-Imapct-Resistant-Compatible-Holster-Protective/dp/B0CYLRSZHD/ref=sr_1_1_sspa?crid=2E3YOUANXHGY9&dib=eyJ2IjoiMSJ9.WEMrvrEXrijVWW3mYb4JXXWWk4o7M1e0euMALgXUIjou6eeBBoz5sAZ5P2VB-2OllmEhGgBPR43Lcwv9kBerwo2w0d9SQAKnBKwSl-b4IC4dD4z4YB3EtlK1nfWfJnkQuv0IXTR_VtCqnf7jPGbnO-OKR4Y_GR1RDnHKlgAThHLWKoOFQThNmZK1Xw2w8nbeJ5kgSi7vnhwbhsN6GQq67PY2tNRCXACUR416QlEE8Hw.k4ACEVRptCHEBRL_iXVZVV8QyFdisnlYRTDYcduH7zQ&dib_tag=se&keywords=mobile+cases&qid=1712036074&sprefix=mobile+cases%2Caps%2C293&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">
+          <img src="advertisment_2.jfif" alt="Amazon Logo" class="image1"> 
+      </a>
+    </div>
+    
+    <footer>
+      <div class="addendum">
+        <h3>Addendum: </h3>
+        <ul>
+          <li>
+            1.I started by making an input box with an id of "number".
+          </li>
+          <li>
+            2. Next, I created a button called "Check Number" by adding an "onclick" event handler called checkNumber().
+          </li>
+          <li>
+            3. I then used getElementById in JavaScript to retrieve the user entered value as a number of an HTML element in the DOM based on its unique identifier (ID) and stored in a variable called number.
+          </li>
+          <li>
+            4. I used this number variable to check whether a number is positive or negative or zero entered by the user and displayed it as alert boxes showing a warning message that for positive numbers "Entered number is positive" and for negative numbers "Entered number is negative" and for null values ​​warning message "Entered number is zero".
+          </li>
+          <li>
+            5. If the user does not enter a number, the message "Enter a valid number" is displayed.
+          </li>
+          <li>
+            6. I have no problem going through this whole lab.
+          </li>
+        </ul> 
+      </div>
+        <p>
+          Last updated:
+          <span id="lastModified"></span>
+        </p>
+    </footer>
+    
+     
+      <script type="text/javascript">
+        var x = document.lastModified;
+        document.getElementById("lastModified").textContent = x;
+      </script> 
+  </body>
+  
+</html>
